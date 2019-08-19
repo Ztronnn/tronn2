@@ -1,0 +1,9 @@
+@Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if (actionId == EditorInfo.IME_ACTION_DONE) {
+                    loadinwebsearch = "https://www.google.co.in/search?q=" + editText3.getText().toString();
+                    webl.loadUrl(loadinwebsearch);
+                }
+                return false;
+            }
+        });

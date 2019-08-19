@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Owl Browser</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-4600645283717934/8981722401
+</string>
+
+    <string name="test_ad_unit_id">ca-app-pub-3940256099942544/6300978111
+</string>
+    <string name="updatelog"><b>New in this update: </b> Version 1.2, Bottom bar redesigned, Added File download support, safe browsing enabled, fixed some performance issues</string>
+
+
+    <!--<string name="notification_sound">Notification sound</string>-->
+    <!-- Strings to translate during creation of a new translation -->
+
+
+</resources>

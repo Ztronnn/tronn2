@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:animateLayoutChanges="true"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context=".Activities.Webactivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarweb"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/toolbar_light">
+
+
+        <AutoCompleteTextView
+            android:textColor="@color/zdark"
+            android:includeFontPadding="true"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:requiresFadingEdge="horizontal"
+            android:fadingEdgeLength="30dp"
+            android:background="@drawable/mainurledit_bg"
+            android:inputType="textNoSuggestions|textUri"
+            android:id="@+id/urlbox2"
+            android:textSize="22sp"
+            android:imeOptions="actionDone"
+            android:selectAllOnFocus="true"
+            android:allowUndo="true"
+            android:windowSoftInputMode="stateHidden"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Link |  Search"
+            android:layout_gravity="center"/>
+
+
+
+
+
+
+
+
+
+</android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:background="@color/toolbar_light"
+        android:id="@+id/framlytt"
+        android:layout_width="match_parent"
+        android:layout_height="4dp">
+
+        <ProgressBar
+            android:id="@+id/prog"
+            android:background="@color/toolbar_light"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:layout_marginTop="-3dp"
+            android:progress="30"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/white"
+        android:id="@+id/info"
+        android:animateLayoutChanges="true"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/infotext"
+            android:maxLines="1"
+            android:textColor="@color/zdark"
+            android:layout_height="match_parent" />
+
+
+
+
+
+
+    </FrameLayout>
+
+
+
+
+
+        <WebView
+            android:id="@+id/web1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        </WebView>
+
+
+
+
+    <!--<com.roughike.bottombar.BottomBar-->
+        <!--android:id="@+id/bottomBar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="#e6e5e5"-->
+        <!--app:bb_tabXmlResource="@xml/tabs" />-->
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:background="#e6e5e5"
+
+        app:bb_tabXmlResource="@xml/tabs" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/btnbg"
+
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/btnmenu"
+            android:layout_width="50dp"
+            android:background="@drawable/btnbg"
+            android:gravity="center"
+            android:src="@drawable/menu_black_24dp"
+            android:layout_height="40dp"
+
+            />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:id="@+id/btnback"
+            android:background="@drawable/btnbg"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:layout_height="40dp"
+
+            />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:background="@drawable/btnbg"
+            android:id="@+id/btnhome"
+            android:src="@drawable/home_black_24dp"
+            android:layout_height="40dp"
+
+            />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:id="@+id/btnforward"
+            android:background="@drawable/btnbg"
+            android:src="@drawable/ic_arrow_forward_black_24dp"
+            android:layout_height="40dp"
+
+            />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <ImageButton
+            android:id="@+id/btnmore"
+            android:layout_width="50dp"
+            android:src="@drawable/more"
+            android:background="@drawable/btnbg"
+            android:layout_height="40dp"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

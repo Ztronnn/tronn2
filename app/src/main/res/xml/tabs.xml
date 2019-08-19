@@ -1,0 +1,25 @@
+<tabs>
+    <tab
+        id="@+id/home"
+        icon="@drawable/home_black_24dp"
+        title="Home" />
+    <tab
+        id="@+id/back"
+        icon="@drawable/ic_arrow_back_black_24dp"
+        title="Back" />
+
+    <tab
+        id="@+id/menub"
+        icon="@drawable/menu_black_24dp"
+        title="Menu" />
+
+    <tab
+        id="@+id/forward"
+        icon="@drawable/ic_arrow_forward_black_24dp"
+        title="Forward" />
+
+    <tab
+        id="@+id/more"
+        icon="@drawable/more"
+        title="Tabs" />
+</tabs>

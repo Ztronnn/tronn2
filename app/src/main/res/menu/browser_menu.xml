@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:id="@+id/bookmarkit"-->
+        <!--android:icon="@drawable/bookmark_36dp"-->
+        <!--app:showAsAction="never"-->
+        <!--android:enabled="false"-->
+        <!--android:orderInCategory="2"-->
+        <!--android:title="Bookmarks" />-->
+
+    <item android:id="@+id/addbookmark"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        android:title="Add bookmark" />
+
+    <item android:id="@+id/bookmarks"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        android:title="Bookmarks" />
+
+    <item android:id="@+id/history"
+        app:showAsAction="never"
+        android:orderInCategory="3"
+        android:title="History" />
+
+    <item android:id="@+id/stopload"
+        app:showAsAction="always"
+        android:icon="@drawable/stop_36dp"
+        android:orderInCategory="1"
+        android:title="Stop" />
+
+    <item android:id="@+id/exit"
+        app:showAsAction="never"
+        android:orderInCategory="9"
+        android:title="Exit" />
+
+    <item android:id="@+id/go"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        android:icon="@drawable/go_36dp"
+        android:title="Go to link" />
+
+
+
+
+
+</menu>

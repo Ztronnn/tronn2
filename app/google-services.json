@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "700822978502",
+    "firebase_url": "https://owlbrowser-91959.firebaseio.com",
+    "project_id": "owlbrowser-91959",
+    "storage_bucket": "owlbrowser-91959.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700822978502:android:4a4ddc440a909da8",
+        "android_client_info": {
+          "package_name": "com.ztronn.owlbrowser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700822978502-8j7ff6rm7hv747c2t6h3adu868sdiduc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ztronn.owlbrowser",
+            "certificate_hash": "83f39043c2843c3b57895739863d386b2887d21b"
+          }
+        },
+        {
+          "client_id": "700822978502-im9vhp3s83tj0s02t8bu6kdimr3psm35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC49av6hjgRKOBZj9p1APDam5t0vaWYijo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700822978502-im9vhp3s83tj0s02t8bu6kdimr3psm35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

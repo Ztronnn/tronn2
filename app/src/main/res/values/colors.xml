@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#669900</color>
+    <color name="zwhite">#e7e7e7</color>
+    <color name="zdark">#636363</color>
+    <color name="white">#ffffff</color>
+    <color name="zmwhite">#BABABA</color>
+
+    <color name="zblack">#151515</color>
+
+    <color name="toolbar_light">#d6d6d6</color>
+
+
+    <color name="accent_material_light_1">#538d2a</color>
+</resources>
